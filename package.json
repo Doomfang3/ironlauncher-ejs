@@ -1,11 +1,11 @@
 {
-  "name": "ironlauncher",
-  "version": "0.36.0",
+  "name": "ironlauncher-ejs",
+  "version": "0.36.1",
   "main": "index.js",
-  "repository": "git@github.com:ironhack-edu/ironlauncher.git",
+  "repository": "git@github.com:Doomfang3/ironlauncher-ejs.git",
   "author": "André de Albuquerque (https://itstheandre.com)",
   "license": "MIT",
-  "description": "Ironhack generator for express bootstrapping",
+  "description": "Ironhack generator for express bootstrapping using Ejs",
   "scripts": {
     "dev": "DEV=true nodemon  ",
     "build": "rimraf dist && tsc",
@@ -23,7 +23,7 @@
     "ironlauncher",
     "ironhack-launcher",
     "express-launcher",
-    "hbs",
+    "ejs",
     "bcrypt",
     "react"
   ],
@@ -35,6 +35,8 @@
     "cli-welcome": "^2.2.2",
     "copy-template-dir": "^1.4.0",
     "create-template-folder": "^2.3.0",
+    "ejs": "^3.1.8",
+    "express-ejs-layouts": "^2.5.1",
     "kolorist": "^1.5.0",
     "minimist": "^1.2.5",
     "ora": "^5.4.0",
