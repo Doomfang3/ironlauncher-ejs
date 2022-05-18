@@ -20,7 +20,6 @@ npx ironlauncher@latest help
 npx ironlauncher@latest --help
 ```
 
-
 ---
 
 ## Options
@@ -35,7 +34,7 @@ npx ironlauncher@latest --help
 
 <br>
 
-- :arrow_down: This will result in an Express application with handlebars setup:
+- :arrow_down: This will result in an Express application with Ejs setup:
 
 ```sh
 npx ironlauncher@latest new-app
@@ -43,7 +42,7 @@ npx ironlauncher@latest new-app
 
 <br>
 
-- :arrow_down: This will result in an Express application with handlebars setup with basic authentication set up for you:
+- :arrow_down: This will result in an Express application with Ejs setup with basic authentication set up for you:
 
 ```sh
 npx ironlauncher new-app --auth
@@ -64,4 +63,3 @@ npx ironlauncher@latest new-app --fs
 ```
 
 <br>
-

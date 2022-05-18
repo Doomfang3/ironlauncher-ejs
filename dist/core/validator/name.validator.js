@@ -22,7 +22,7 @@ class NameValidator {
     }
 }
 exports.NameValidator = NameValidator;
-NameValidator.currentFolder = ".";
+NameValidator.currentFolder = '.';
 NameValidator.currentDirNotEmpty = `This directory is not empty, please choose a different name\n`;
 NameValidator.dirTaken = `This directory already exists`;
-NameValidator.addValue = "Please add a value\n";
+NameValidator.addValue = 'Please add a value\n';

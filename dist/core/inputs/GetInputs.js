@@ -22,9 +22,9 @@ class GetInputs {
     static getName() {
         return __awaiter(this, void 0, void 0, function* () {
             return (0, prompts_1.default)({
-                name: "name",
-                type: "text",
-                message: "Project name?",
+                name: 'name',
+                type: 'text',
+                message: 'Project name?',
                 validate: validator_1.NameValidator.validate,
             }, {
                 onCancel: this.onCancel,
@@ -33,16 +33,16 @@ class GetInputs {
     }
     static getVariant() {
         return (0, prompts_1.default)({
-            name: "variant",
-            type: "select",
-            message: "Do you want to have auth already built?",
+            name: 'variant',
+            type: 'select',
+            message: 'Do you want to have auth already built?',
             initial: 0,
             choices: [
                 {
-                    title: "No, thank you 🚀",
+                    title: 'No, thank you 🚀',
                     value: 0,
                 },
-                { title: "Yes, please 💪", value: 1 },
+                { title: 'Yes, please 💪', value: 1 },
             ],
         }, {
             onCancel: this.onCancel,
@@ -52,15 +52,15 @@ class GetInputs {
         return __awaiter(this, void 0, void 0, function* () {
             const projectFolders = yield readdir(cmd_1.FolderOps.templatesDir);
             const onlyDirs = [...projectFolders]
-                .filter((e) => !/\./.test(e))
+                .filter(e => !/\./.test(e))
                 .sort((a, b) => b.localeCompare(a));
             return (0, prompts_1.default)([
                 {
-                    name: "project",
-                    type: "select",
-                    message: "Which kind?",
+                    name: 'project',
+                    type: 'select',
+                    message: 'Which kind?',
                     initial: 0,
-                    choices: onlyDirs.map((e) => {
+                    choices: onlyDirs.map(e => {
                         return {
                             title: e,
                             value: e,
