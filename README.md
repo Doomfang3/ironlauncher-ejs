@@ -7,7 +7,7 @@ Welcome to the IronLauncher! A quick start for your JavaScript applications.
 1. Run the CLI using
 
 ```sh
-npx ironlauncher@latest # <your-app-name> + flag(s)
+npx ironlauncher-ejs@latest # <your-app-name> + flag(s)
 ```
 
 ## Help
@@ -15,9 +15,9 @@ npx ironlauncher@latest # <your-app-name> + flag(s)
 If you want to see the flags and options you can always run one of these commands:
 
 ```sh
-npx ironlauncher@latest help
+npx ironlauncher-ejs@latest help
 # or
-npx ironlauncher@latest --help
+npx ironlauncher-ejs@latest --help
 ```
 
 ---
@@ -37,7 +37,7 @@ npx ironlauncher@latest --help
 - :arrow_down: This will result in an Express application with Ejs setup:
 
 ```sh
-npx ironlauncher@latest new-app
+npx ironlauncher-ejs@latest new-app
 ```
 
 <br>
@@ -45,7 +45,7 @@ npx ironlauncher@latest new-app
 - :arrow_down: This will result in an Express application with Ejs setup with basic authentication set up for you:
 
 ```sh
-npx ironlauncher new-app --auth
+npx ironlauncher-ejs@latest new-app --auth
 ```
 
 :star: :star: :star: **You can add the `--auth` flag to any other flag and it will setup the basic authentication for the other options as well.**
@@ -53,13 +53,13 @@ npx ironlauncher new-app --auth
 - :arrow_down: This will result in an Express **API** without any view layer:
 
 ```sh
-npx ironlauncher@latest new-app --json
+npx ironlauncher-ejs@latest new-app --json
 ```
 
 - :arrow_down: This will result in a CRA (Create React App) and Express setup, where there is already connection between them:
 
 ```sh
-npx ironlauncher@latest new-app --fs
+npx ironlauncher-ejs@latest new-app --fs
 ```
 
 <br>
